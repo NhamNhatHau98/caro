@@ -11,7 +11,7 @@ function selectWinnerBoxes(b1, b2, b3){
     b2.classList.add("win")
     b3.classList.add("win")
     restart.classList.add("show")
-    turn.innerHTML=b1.innerHTML+"Won"
+    turn.innerHTML=b1.innerHTML+" Won"
 }
 
 function getWinner(){
